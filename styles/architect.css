@@ -1,11 +1,21 @@
+/* shared styles */
+
 * {
     font-family: "Work Sans", system-ui;
     font-optical-sizing: auto;
     font-style: normal;
+    margin: 0 auto;
 }
 
 .btn-primary {
-    color: black;
+    border-radius: 8px;
+    background: #ff900f;
+    padding: 20px 25px;
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 400;
+    border: 0;
+    cursor: pointer;
 }
 
 /* header */
@@ -19,6 +29,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 117px;
 }
 
 .nav-title {
@@ -59,4 +70,62 @@ nav li a {
 
 .banner-description {
     color: #727272;
+    margin: 15px 0;
+}
+
+.banner-container img {
+    width: 100%;
+    margin: 10px 0;
+}
+
+
+
+
+
+
+/* media query */
+
+
+/* small devices */
+
+@media screen and (max-width: 576px) {
+    header {
+        padding: 10px 20px;
+    }
+
+    /* nav style */
+    nav {
+        flex-direction: column;
+        margin-bottom: 50px;
+        gap: 15px;
+        margin-top: 20px;
+    }
+
+    .nav-title {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    /* banner style */
+    .banner-title {
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: #131313;
+    }
+}
+
+/* medium devices */
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    header {
+        padding: 10px 20px;
+    }
+
+    /* nav style */
+    nav {
+        flex-direction: column;
+        margin-bottom: 50px;
+        gap: 15px;
+        margin-top: 20px;
+    }
 }
