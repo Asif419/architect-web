@@ -38,7 +38,7 @@ nav {
     margin-bottom: 117px;
 }
 
-.nav-title {
+.section-title {
     font-size: 2.8rem;
     font-weight: 700;
 }
@@ -81,6 +81,8 @@ nav li a {
 
 
 /* main styles */
+
+/* teams section */
 main {
     max-width: 1440px;
     margin: 0 auto;
@@ -134,12 +136,41 @@ main {
 }
 
 
+/* facts section */
+.facts {
+    padding: 140px 230px;
+}
 
+.facts>.text-description-gray {
+    max-width: 50%;
+}
 
+.facts-card-container {
+    display: flex;
+}
 
+.card {
+    border: 2px solid #FF900E;
+    padding: 45px 36px;
+    border-radius: 7px;
+}
 
+.card .card-states {
+    font-size: 2.8rem;
+    color: #424242;
+}
 
+.card .card-title {
+    font-weight: 600;
+    font-size: 1.24rem;
+    padding: 0 0;
+}
 
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
 
 
 
@@ -161,7 +192,7 @@ main {
         margin-top: 20px;
     }
 
-    .nav-title {
+    .section-title {
         font-size: 2rem;
         font-weight: 700;
     }
@@ -174,6 +205,8 @@ main {
     }
 
     /* main styles */
+
+    /* teams section */
     .teams-container {
         flex-direction: column;
         padding: 8px 30px 11px 30px;
@@ -182,7 +215,25 @@ main {
     .teams-content {
         max-width: 100%;
     }
+
+    /* facts section */
+    .facts {
+        padding: 15px 30px;
+    }
+
+    .facts>.text-description-gray {
+        max-width: 100%;
+    }
+
+    .facts-card-container {
+        flex-direction: column;
+        gap: 20px;
+    }
 }
+
+
+
+
 
 /* medium devices */
 
@@ -201,6 +252,8 @@ main {
 
 
     /* main styles */
+
+    /* teams section */
     .teams-container {
         flex-direction: column;
         padding: 8px 30px 11px 30px;
@@ -208,5 +261,29 @@ main {
 
     .teams-content {
         max-width: 80%;
+    }
+
+    /* facts section */
+    .facts {
+        padding: 30px 100px;
+    }
+
+    .facts>.text-description-gray {
+        max-width: 100%;
+    }
+
+    .facts-card-container {
+        display: flex;
+    }
+
+    .card {
+        border: 2px solid #FF900E;
+    }
+
+    /* facts section */
+    
+    .facts-card-container {
+        flex-direction: column;
+        gap: 20px;
     }
 }
