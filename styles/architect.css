@@ -35,7 +35,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 117px;
+    margin-bottom: 100px;
 }
 
 .section-title {
@@ -136,6 +136,64 @@ main {
 }
 
 
+/* features section */
+
+.features {
+    display: flex;
+    padding: 0px 150px 0px 150px;
+    gap: 80px;
+}
+
+.features-content {
+    max-width: 40%;
+}
+
+.features-content>.section-title {
+    border-left: 5px solid #ff900f;
+    padding-left: 20px;
+}
+
+.feature-card {
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0px 4px 30px 0px rgb(0, 0, 0, 0.06);
+}
+
+.feature-img > img {
+    max-width: 100%;
+    margin-left: 20px;
+}
+
+.ten-years-badge {
+    border-radius: 8px;
+    background-color: #ff900f;
+    color: white;
+    font-weight: 300;
+    padding: 20px;
+    text-align: center;
+    max-width: 50%;
+    position: relative;
+    bottom: 100px;
+    right: 30px;
+    margin: 0;
+}
+
+.ten-years-badge > h2 {
+    font-size: 4rem;
+    margin: 0px;
+    padding: 0px;
+}
+
+.ten-years-badge > p {
+    font-size: 1.5rem;
+    margin: 10px;
+}
+
+
+
+
 /* facts section */
 .facts {
     padding: 140px 230px;
@@ -153,6 +211,7 @@ main {
     border: 2px solid #FF900E;
     padding: 45px 36px;
     border-radius: 7px;
+    margin: 0 auto;
 }
 
 .card .card-states {
@@ -189,6 +248,17 @@ main {
 .sponsors>.text-description-gray {
     padding: 20px 0;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* media query */
@@ -238,7 +308,7 @@ main {
         padding: 60px 30px;
     }
 
-    .facts > .section-title {
+    .facts>.section-title {
         text-align: center;
     }
 
